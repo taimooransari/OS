@@ -1,0 +1,141 @@
+
+
+1. chmod o+rw ma07595.txt
+
+2. 
+Command: head -n 3 ma07595.txt
+
+Output:
+
+Apple   Banana  10
+Carrot  Orange  25
+Laptop  Phone   15
+
+3. 
+Command:  tail -n 4 ma07595.txt
+
+Output: 
+
+Hat     Shoes   14
+Tiger   Lion    26
+Star    Moon    24
+Sun     Rain    23
+
+4. 
+Command:  sed -n '6p' ma07595.txt
+
+Output: 
+
+Coffee  Tea     22
+
+5.
+Command: cut -f 3 -d ' '  ma07595.txt
+
+Output: 
+
+10
+25
+15
+30
+18
+22
+12
+17
+28
+13
+21
+27
+11
+16
+20
+19
+14
+26
+24
+23
+
+6. Command: cut -f 1 -d ' '  ma07595.txt | sort
+
+Output: 
+
+Apple
+Book
+Carrot
+Chair
+Coffee
+Dog
+Guitar
+Hat
+Laptop
+Mountain
+Movie
+Music
+Pizza
+Red
+River
+Star
+Summer
+Sun
+Sunny
+Tiger
+
+7. Command: awk '{print $3}' ma07595.txt | sort -n | tail -n 1
+
+Output:
+
+30
+
+8. Command: cat ma07595.txt | wc -w > count.txt
+
+9. Command: cat ma07595.txt | wc -c >> count.txt
+
+10. Command: cut -f 2 ma07595.txt | tac > reverse.txt
+
+Output:
+
+Sun Rain 23
+Star Moon 24
+Tiger Lion 26
+Hat Shoes 14
+Guitar Piano 19
+Pizza Burger 20
+Movie Theater 16
+Music Dance 11
+Mountain Valley 27
+River Ocean 21
+Book Pen 13
+Summer Winter 28
+Chair Table 17
+Red Green 12
+Coffee Tea 22
+Sunny Cloudy 18
+Dog Cat 30
+Laptop Phone 15
+Carrot Orange 25
+Apple Banana 10
+
+11. Command: cut -f 1 ma07595.txt | cut -c 1
+
+Output:
+
+A
+C
+L
+D
+S
+C
+R
+C
+S
+B
+R
+M
+M
+M
+P
+G
+H
+T
+S
+S
+
