@@ -1,0 +1,16 @@
+total 92K
+-rw-rw-r--  1 administrator administrator    0 ستمبر  20 17:37 newnew.txt
+drwxrwxr-x  2 administrator administrator 4.0K ستمبر  20 17:37 .
+-rwxrwxr-x  1 administrator administrator  17K ستمبر  20 17:33 task6
+-rw-rw-r--  1 administrator administrator    0 ستمبر  20 17:31 help.txt
+-rwxrwxr-x  1 administrator administrator  17K ستمبر  20 17:30 task4
+-rwxrwxr-x  1 administrator administrator  17K ستمبر  20 17:30 a.out
+-rw-rw-r--  1 administrator administrator    0 ستمبر  20 17:30 hello.txt
+-rw-rw-r--  1 administrator administrator 2.0K ستمبر  20 17:29 task2_6.c
+-rw-rw-r--  1 administrator administrator 1.3K ستمبر  20 17:22 task2_4.c
+-rw-rw-r--  1 administrator administrator  990 ستمبر  20 16:25 wait.c
+-rwx------  1 administrator administrator    0 ستمبر  20 16:07 p4.output
+-rw-rw-r--  1 administrator administrator  613 ستمبر  20 16:06 exec.c
+-rw-rw-r--  1 administrator administrator  630 ستمبر  20 15:40 ioredir.c
+-rw-rw-r--  1 administrator administrator  382 ستمبر  20 15:26 fork.c
+drwxr-x--- 21 administrator administrator 4.0K ستمبر  20 15:03 ..
